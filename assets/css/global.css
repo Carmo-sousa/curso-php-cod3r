@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Victor Mono";
+    src: url("../fonts/TTF/VictorMono-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Victor mono";
+    color: #333;
+}

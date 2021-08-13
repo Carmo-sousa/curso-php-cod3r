@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Victor Mono";
+    src: url("../fonts/TTF/VictorMono-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-color: #333;
+    --main-background: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Victor Mono";
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    flex-direction: column;
+    grid-template-rows: 120px 1fr 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cabecalho"
+        "principal"
+        "rodape"    
+    ;
+}
+
+.cabecalho {
+    background-color: #023047;
+    grid-area: "cabecalho";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f0f0f0;
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.cabecalho h1::selection, h2::selection {
+    background-color: #023047;
+    color: #fb8500;
+}
+
+.principal {
+    background-color: #f0f0f0;
+    height: calc(100vh - 180px);
+    padding: 20px;
+    grid-area: "principal";
+}
+
+.conteudo {
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Módulos */
+.modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Módulo */
+.modulo {
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.modulo h3 {
+    padding: 0px 10px;
+    background-color: #fb8500;
+    color: #333;
+}
+
+.modulo ul {
+    padding: 10px;
+    list-style: none;
+}
+
+.modulo ul li {
+    padding: 7px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.modulo ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #222;
+}
+
+.modulo ul li:hover {
+    background-color: #eee;
+}
+/* Fim Módulo */
+
+.rodape {
+    background-color: #023047;
+    grid-area: "rodape";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f0f0;
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Cores dos módulos */
+
+.modulo.marigold {
+    border: solid 2px #ECA400;
+}
+.modulo.marigold h3 {
+    background-color: #ECA400;
+}
+/* -------------------------- */
+
+.modulo.pale {
+    border: solid 2px #EAF8BF;
+}
+.modulo.pale h3 {
+    background-color: #EAF8BF;
+}
+/* -------------------------- */
+.modulo.sapphire {
+    border: solid 2px #006992;
+}
+.modulo.sapphire h3 {
+    background-color: #006992;
+}
+/* -------------------------- */
+
+.modulo.indigo {
+    border: solid 2px #27476E;
+}
+.modulo.indigo h3 {
+    color: #f0f0f0;
+    background-color: #27476E;
+}
+/* -------------------------- */
+
+.modulo.oxford {
+    border: solid 2px #001D4A;
+}
+.modulo.oxford h3 {
+    color: #f0f0f0;
+    background-color: #001D4A;
+}
+/* -------------------------- */
+
+.modulo.sea {
+    border: solid 2px #44AF69;
+}
+.modulo.sea h3 {
+    background-color: #44AF69;
+}
+/* -------------------------- */
+
+.modulo.salsa {
+    border: solid 2px #F8333C;
+}
+.modulo.salsa h3 {
+    background-color: #F8333C;
+}
+/* -------------------------- */
+
+.modulo.grayola {
+    border: solid 2px #FCAB10;
+}
+.modulo.grayola h3 {
+    background-color: #FCAB10;
+}
+/* -------------------------- */
+
+.modulo.munsell {
+    border: solid 2px #2B9EB3;
+}
+.modulo.munsell h3 {
+    background-color: #2B9EB3;
+}
