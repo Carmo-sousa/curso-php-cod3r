@@ -39,11 +39,9 @@
                     </ul>
                 </div>
                 <div class="modulo sapphire">
-                    <h3>Módulo 03</h3>
+                    <h3>Variáveis</h3>
                     <ul>
-                        <li><a href="#">exercício A</a></li>
-                        <li><a href="#">exercício B</a></li>
-                        <li><a href="#">exercício C</a></li>
+                        <li><a href="exercicio.php?dir=variaveis&file=basico">Básico</a></li>
                     </ul>
                 </div>
                 <div class="modulo indigo">
