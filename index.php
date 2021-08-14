@@ -34,6 +34,7 @@
                     <li><a href="exercicio.php?dir=tipos&file=desafio_precedencia">Des. Precedência</a></li>
                     <li><a href="exercicio.php?dir=tipos&file=string">String</a></li>
                     <li><a href="exercicio.php?dir=tipos&file=desafio_string">Des. String</a></li>
+                    <li><a href="exercicio.php?dir=tipos&file=booleano">Booleano</a></li>
                     </ul>
                 </div>
                 <div class="modulo sapphire">
