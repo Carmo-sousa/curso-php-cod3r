@@ -43,6 +43,7 @@
                     <ul>
                         <li><a href="exercicio.php?dir=variaveis&file=basico">Básico</a></li>
                         <li><a href="exercicio.php?dir=variaveis&file=desafio_equacao">Desafio equação</a></li>
+                        <li><a href="exercicio.php?dir=variaveis&file=atribuicoes">Atribuições</a></li>
                     </ul>
                 </div>
                 <div class="modulo indigo">
