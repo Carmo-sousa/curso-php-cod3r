@@ -3,7 +3,18 @@
 <?php
 
 if(true) {
-    echo "Hello";
+    echo "Hello<br>";
 }
 
+
+if(false) {
+    echo "Verdadeiro A!<br>";
+
+} else if(true) {
+    echo "Verdadeiro B!<br>";
+
+} else {
+    echo "Falso! <br>";
+
+}
 ?>
