@@ -52,11 +52,9 @@
                     </ul>
                 </div>
                 <div class="modulo indigo">
-                    <h3>Módulo 04</h3>
+                    <h3>Estrutura de controle #1</h3>
                     <ul>
-                        <li><a href="#">exercício A</a></li>
-                        <li><a href="#">exercício B</a></li>
-                        <li><a href="#">exercício C</a></li>
+                    <li><a href="exercicio.php?dir=controle&file=if_else">If Else</a></li>
                     </ul>
                 </div>
                 <div class="modulo oxford">
