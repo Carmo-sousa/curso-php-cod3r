@@ -60,6 +60,7 @@
                     <li><a href="exercicio.php?dir=controle&file=operadores_logicos">Operadores Lógicos</a></li>
                     <li><a href="exercicio.php?dir=controle&file=desafio_operadores_logicos">Desafio Operadores Lógicos</a></li>
                     <li><a href="exercicio.php?dir=controle&file=operador_ternario">Operador ternário</a></li>
+                    <li><a href="exercicio.php?dir=controle&file=switch">Switch</a></li>
                     </ul>
                 </div>
                 <div class="modulo oxford">
