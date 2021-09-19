@@ -65,11 +65,9 @@
                     </ul>
                 </div>
                 <div class="modulo oxford">
-                    <h3>Módulo 05</h3>
+                    <h3>Array</h3>
                     <ul>
-                        <li><a href="#">exercício A</a></li>
-                        <li><a href="#">exercício B</a></li>
-                        <li><a href="#">exercício C</a></li>
+                    <li><a href="exercicio.php?dir=array&file=basico">Básico</a></li>
                     </ul>
                 </div>
                 <div class="modulo sea">
