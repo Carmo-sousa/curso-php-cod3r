@@ -69,6 +69,7 @@
                     <ul>
                     <li><a href="exercicio.php?dir=array&file=basico">Básico</a></li>
                     <li><a href="exercicio.php?dir=array&file=mapa">Mapa</a></li>
+                    <li><a href="exercicio.php?dir=array&file=desafio_index">Desafio index</a></li>
                     </ul>
                 </div>
                 <div class="modulo sea">
